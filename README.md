@@ -1,24 +1,12 @@
-# IM PMI — Template Kerja Tim
+# IM PMI - Template Kerja Tim
 
 Repository ini digunakan oleh tim **Information Management (IM) PMI** untuk mengelola tasking, progres kerja, output, dan dokumentasi keputusan selama latihan maupun operasi.
-
 Repo ini bekerja bersama **Microsoft Teams** (komunikasi dan koordinasi), **SharePoint** (penyimpanan dokumen kerja), dan **GitHub Project Kanban** (tasking dan pelacakan progres).
 
 ---
 
-## 📈 Progress Project Kanban
 
-<!-- PROJECT_PROGRESS:START -->
-![Progress](https://geps.dev/progress/0)
-
-**Progress Kanban:** 0/0 item selesai (0%).
-<!-- PROJECT_PROGRESS:END -->
-
-> Progress dihitung otomatis dari [GitHub Project Kanban](https://github.com/orgs/IMPMI-Cell/projects/12) berdasarkan jumlah item berstatus `Done` dibandingkan total item yang memiliki field `Status`.
-
----
-
-## 📞 Saluran Komunikasi Tim
+## Saluran Komunikasi Tim
 
 | Kanal | Fungsi | Tautan |
 |---|---|---|
@@ -29,7 +17,7 @@ Repo ini bekerja bersama **Microsoft Teams** (komunikasi dan koordinasi), **Shar
 
 ---
 
-## 📁 Struktur Folder Kerja
+## Struktur Folder Kerja
 
 ```text
 ├── 00_Admin/
@@ -48,7 +36,7 @@ Repo ini bekerja bersama **Microsoft Teams** (komunikasi dan koordinasi), **Shar
 
 ---
 
-## 🧩 Format Tasking 8-Field
+## Format Tasking 8-Field
 
 Setiap issue dibuat menggunakan format 8-field berikut:
 
@@ -65,7 +53,7 @@ Setiap issue dibuat menggunakan format 8-field berikut:
 
 ---
 
-## 🤝 Cara Berkontribusi
+## Cara Berkontribusi
 
 1. Buka [kanban](https://github.com/orgs/IMPMI-Cell/projects/12) dan pilih issue berlabel sesuai kapasitas (mis. `gis`, `data`, `mdc`, `infographic`, `qa-qc`).
 2. Jika ada kebutuhan baru, buat issue baru menggunakan format 8-field di atas.
@@ -74,46 +62,22 @@ Setiap issue dibuat menggunakan format 8-field berikut:
 
 ---
 
-## 🗃️ Aturan Dasar Data
+## Aturan Dasar Data
 
 - Setiap data atau produk wajib mencantumkan minimal: **sumber**, **timestamp (as-of)**, dan **tingkat kepercayaan (confidence)**.
 - Tidak membagikan PII atau data sensitif (nama, nomor HP individu) pada output publik.
 - Data kontak untuk verifikasi disimpan terbatas sesuai persetujuan (consent).
-- Jika ada perbedaan angka antar sumber, jangan pilih salah satu tanpa catatan — tampilkan semua versi dengan keterangan sumbernya dan tandai sebagai *unverified* sampai direkonsiliasi.
+- Jika ada perbedaan angka antar sumber, jangan pilih salah satu tanpa catatan - tampilkan semua versi dengan keterangan sumbernya dan tandai sebagai *unverified* sampai direkonsiliasi.
 - Setiap perubahan signifikan pada dataset (koreksi, penambahan, penghapusan) wajib dicatat di changelog atau komentar issue terkait, lengkap dengan alasan perubahan.
 
 ---
 
-## 🤲 Kode Etik Kolaborasi
+## Kode Etik Kolaborasi
 
 - Fokus pada kebutuhan operasional dan hindari duplikasi kerja.
 - Gunakan bahasa yang jelas dan singkat.
 - Cantumkan asumsi dan metodologi saat membuat peta atau analisis.
 - Saling menghargai kapasitas dan waktu anggota tim.
 - Jika mengambil alih atau melanjutkan pekerjaan orang lain, konfirmasi dulu kepada pemilik issue sebelum melakukan perubahan besar.
-- Eskalasi hambatan lebih awal — jika ada kendala yang berpotensi menggeser deadline, informasikan ke koordinator **sebelum** deadline terlewat, bukan sesudahnya.
+- Eskalasi hambatan lebih awal - jika ada kendala yang berpotensi menggeser deadline, informasikan ke koordinator **sebelum** deadline terlewat, bukan sesudahnya.
 
----
-
-## ⚙️ Integrasi Progress Otomatis
-
-Progress bar di atas diperbarui otomatis oleh GitHub Actions setiap kali ada perubahan di Project Kanban. Workflow membaca status item dan menghitung:
-
-```
-Progress (%) = jumlah item "Done" ÷ total item dengan field Status × 100
-```
-
-Status yang dihitung sebagai selesai: `Done`, `Selesai`, `Completed`, `Complete`.
-
-Lihat [`CARA_PAKAI_PROGRESS.md`](./CARA_PAKAI_PROGRESS.md) untuk panduan setup lengkap termasuk cara membuat PAT dan menyimpannya sebagai secret.
-
----
-
-## 📎 Dokumen Pendukung
-
-| File | Keterangan |
-|---|---|
-| [`CARA_PAKAI_PROGRESS.md`](./CARA_PAKAI_PROGRESS.md) | Panduan setup workflow progress otomatis + PAT |
-| [`STRUKTUR_FOLDER.md`](./STRUKTUR_FOLDER.md) | Panduan penggunaan folder kerja |
-| [`LABEL_ISSUE.md`](./LABEL_ISSUE.md) | Rekomendasi label GitHub Issue |
-| [`tasking-8-field.md`](./tasking-8-field.md) | Template issue GitHub format 8-field |
