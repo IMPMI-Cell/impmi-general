@@ -55,7 +55,7 @@ Setiap issue dibuat menggunakan format 8-field berikut:
 
 ## Cara Berkontribusi
 
-1. Buka [kanban](https://github.com/orgs/IMPMI-Cell/projects/12) dan pilih issue berlabel sesuai kapasitas (mis. `gis`, `data`, `mdc`, `infographic`, `qa-qc`).
+1. Buka [kanban](https://github.com/orgs/IMPMI-Cell/projects/13) dan pilih issue berlabel sesuai kapasitas (mis. `gis`, `data`, `mdc`, `infographic`, `qa-qc`).
 2. Jika ada kebutuhan baru, buat issue baru menggunakan format 8-field di atas.
 3. Untuk diskusi, gunakan **thread di Teams** agar satu topik = satu thread.
 4. Tandai issue sebagai `Done` di Project Kanban setelah selesai agar progress otomatis terupdate.
