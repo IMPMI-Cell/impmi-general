@@ -13,7 +13,6 @@ Repo ini bekerja bersama **Microsoft Teams** (komunikasi dan koordinasi), **Shar
 | MS Teams | Diskusi formal dan koordinasi | [Buka Teams](https://teams.microsoft.com/l/channel/19%3A9c086bccf28d499f94ad6a4daeb26bf7%40thread.skype/TEAM%20IM?groupId=bbf3c731-4917-4fee-aab6-2c078eca3108&tenantId=1e4e05eb-0506-49fc-b693-1adf0e95d162) |
 | SharePoint | Penyimpanan dokumen kerja | [Buka SharePoint](https://pmipusat.sharepoint.com/:f:/r/sites/IM-PMI/Shared%20Documents/TEAM%20IM?csf=1&web=1&e=K6qfoS) |
 | GitHub Kanban | Tasking dan tracking progres | [Buka Project](https://github.com/orgs/IMPMI-Cell/projects/13) |
-| WhatsApp | Koordinasi cepat | [Buka WA](#) |
 
 ---
 
